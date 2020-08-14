@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+:root {
+    font-size: 10px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    z-index: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.625;
+    font-family: 'Karla', sans-serif; 
+    font-weight: 400;
+    color: #837D88;
+}
+
+.container {
+    margin: 0 16.8rem 0 16.5rem;
+    max-width: 1500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    padding: 3.1rem 0;
+}
+nav li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+nav a,
+nav button {
+    margin-left: 2.4rem;
+    color: #837D88
+}
+
+button {
+    width: 146px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+}   
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: #2C2830;
+    color: #2C2830;
+}
+
+button {
+    outline: none;
+}
+
+nav button {
+    color: #2C2830;
+    border: 1.5px solid #2C2830;
+}
+
+nav button:hover {
+    background-color: #2C2830;
+    color: white;
+}
+
+.mobile-menue {
+    display: none;
+    background: no-repeat bottom right #2D2641 url('../images/bg-pattern-mobile-nav.svg');
+    height: 59rem;
+    
+}
+
+.mobile-menue ul {
+    padding-top: 4rem;
+}
+
+.mobile-menue li {
+    margin-bottom: 2.4rem;
+}
+
+.mobile-menue a {
+    color: white;
+}
+
+.menu {
+    display: none;
+}
+
+#menu-icon:hover {
+    cursor: pointer;
+}
+
+header {
+    color: white;
+    background: linear-gradient(to bottom, #2D2641 0%,#2D2641 75%,#2D2641 50%,white 50%,white 100%);  
+}
+
+.divider {
+    width: 15rem;
+    border-bottom: 1px solid white;
+}
+
+.intro {
+    padding-top: 10.5rem;
+    display: flex;
+}
+
+.intro-right {
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+
+.intro-left {
+    position: absolute;
+    top: 41.4rem;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 7.2rem;
+    letter-spacing: -1px;
+    line-height: 0.889;
+    margin: 6.3rem 0 1.6rem 0;
+}
+
+.intro button {
+    margin: 2.4rem 0 12.7rem 0;
+}
+
+.portrait {
+    margin-left: 3rem;
+}
+
+.different .divider {
+    border-color: #C396C6;
+}
+
+.different h2 {
+    font-family: 'DM Serif Display', serif;
+    color: #2D2641;
+    font-weight: 400;
+    font-size: 7.2rem;
+    letter-spacing: -1px;
+    line-height: 0.889;
+    margin: 6.4rem 0 9.6rem 0;
+}
+
+.different ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14rem;
+}
+
+.different li {
+    padding-right: 3rem;
+    width: 350px;
+}
+
+.different h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: -0.39px;
+    color: #2C2830;
+    margin: 3.2rem 0 1.6rem 0;
+}
+
+.find-out-more {
+    background: #2D2641 url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat top right;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+    margin-bottom: 16.5rem;
+}
+
+.find-out-more h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5.6rem;
+    letter-spacing: -0.78px;
+    line-height: 1;
+}
+
+footer {
+    background: #FAFAFA url('../images/bg-pattern-footer-desktop.svg') no-repeat;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.4rem 0 3.3rem 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+.social-icon {
+    margin-right: 1.6rem;   
+}
+
+.social:hover {
+    cursor: pointer;
+    fill: #2C2830;;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6.4rem;
+}
+
+.footer-links h2 {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 4.8rem 0 3.6rem 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    color: #2D2641;
+    margin-bottom: 1.6rem;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1150px) {
+
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    margin: 0;
+    padding: 0 2.4rem;
+}
+
+.portrait {
+    margin-left: 0;
+    width: 100vw;
+}
+
+.intro {
+    color: white;
+    background: no-repeat #2D2641 url('../images/bg-pattern-intro-left-mobile.svg'); 
+    
+}
+
+.mob-right {
+    display: block;
+    height: 351px;
+    
+    margin-top: -150px;
+    background: bottom right no-repeat transparent url('../images/bg-pattern-intro-right-mobile.svg');
+}
+
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 4.8rem;
+    letter-spacing: -0.67px;
+    line-height: 1;
+    margin: 9.3rem 0 1.6rem 0;
+}
+
+.intro button {
+    margin: 3.2rem 0 9.3rem 0;
+}
+
+.different {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.different .divider {
+    border-color: #C396C6;
+}
+
+.different h2 {
+    font-size: 4.8rem;
+    letter-spacing: -0.67px;
+    line-height: 1;
+    margin: 4.1rem 0 8rem 0;
+}
+
+.different ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 14rem;
+}
+
+.different li {
+    padding: 0;
+    margin-bottom: 5.6rem;
+    width: auto;
+}
+
+
+.find-out-more {
+    background: #2D2641 url('../images/bg-pattern-how-we-work-mobile.svg') no-repeat top right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 4rem;
+    margin-bottom: 16.5rem;
+    
+}
+
+.find-out-more h2 {
+    font-family: 'DM Serif Display', serif;
+    line-height: 1;
+    font-size: 40px;
+    letter-spacing: -0.56px;
+    line-height: 40px;
+    margin-bottom: 4rem;
+}
+
+
+
+footer {
+    background: #FAFAFA url('../images/bg-pattern-footer-mobile.svg') no-repeat;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 0 ;
+    border-bottom: 1px solid #DADADA;
+}
+
+.social-icon {
+    margin: 1.6rem;   
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 6.4rem;
+}
+
+.footer-links h2 {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 4rem 0 3.6rem 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    color: #2D2641;
+    margin-bottom: 1.6rem;
+}
+
+
+
+
+
+
+}
+
+
+
+
